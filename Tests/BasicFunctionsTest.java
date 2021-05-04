@@ -22,7 +22,7 @@ public class BasicFunctionsTest {
     @BeforeTest
     public void setup(){
         // TODO: local chrome driver
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\ToFoo\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver",);
         webDriver = new ChromeDriver();
         wait = new WebDriverWait(webDriver, 5);
         url = "https://open.spotify.com/";
@@ -50,7 +50,7 @@ public class BasicFunctionsTest {
         // Wait for the loading of the MainPage
         wait.until(ExpectedConditions.visibilityOfElementLocated(byLogin));
         // TODO: Spotify credentials
-        loginPage.loginToSpotify("tofoo_power@hotmail.com","06##GXVzQt6X");
+        loginPage.loginToSpotify();
     }
 
     public void clearCookie(){

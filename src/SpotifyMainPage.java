@@ -67,7 +67,7 @@ public class SpotifyMainPage {
         // Adjust x-coordinate to be offset from center
         new Actions(aDriver).moveToElement(progress_bar, (int) (progressBar_x-progressBarOffset), 0).click().build().perform();
     }
-    
+
     /**
      * Getters
      * @return the according By
