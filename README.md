@@ -1,5 +1,7 @@
 # OG-assessmentWebQA
 
+Goal : Testing Spotify's web player.
+
 I followed a Page Object model which we can see in the src folder.
 
 I made a seperate folder for the tests where I test each functionality of the web player by toggling no other function except the one being tested.
